@@ -1,0 +1,3 @@
+s=int(input("enter the number"))
+squr=s**2
+print("square of the number is:",squr)
