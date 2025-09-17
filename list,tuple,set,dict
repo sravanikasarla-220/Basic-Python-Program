@@ -1,0 +1,8 @@
+my_list=[10,20,30]
+my_tuple={10,20,30}
+my_set=[10,20,30]
+my_dict={'one':1,'two':2}
+print("list of numbers",my_list)
+print("tuple of numbers",my_tuple)
+print("set of numbers",my_set)
+print("dict of numbers",my_dict)
