@@ -1,0 +1,17 @@
+num1=int(input("enter the first number"))
+num2=int(input("enter the second number"))
+choice=int(input("enter the operator:"))
+if(choice==1):
+    sum=num1+num2
+    print(sum)
+elif(choice==2):
+    sub=num1-num2
+    print(sub)
+elif(choice==3):
+    multiplication=num1*num2
+    print(multiplication)
+elif(choice==4):
+    division=num1/num2
+    print(division)
+else:
+    print("error")
