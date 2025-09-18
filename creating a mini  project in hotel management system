@@ -1,0 +1,35 @@
+print("welcome to ABC  restaurant")
+print("""choose your menu
+       1.tiffin items
+       2.lunch meals
+       3.juice items
+       4.snacks
+       5.ice creams""")
+choice=int(input("enter a number to choose your menu(1,2,3,4,5:"))
+quantity=int(input("quantity:"))
+if(choice==1):
+    print("1.tiffin items-50rs")
+    price=50
+    print("total price:",quantity*price)
+elif(choice==2):
+    print("1.lunch meals-100rs")
+    price=100
+    print("total price:",quantity*price)
+elif(choice==3):
+    print("3.juice items-50rs")
+    price=50
+    print("total price:",quantity*price)
+elif(choice==4):
+    print("4.snacks-50rs")
+    price=50
+    print("total price:",quantity*price)
+elif(choice==5):
+    print("5.ice creams-50rs")
+    price=50
+    print("total price:",quantity*price)
+else:
+    print("error")
+    
+    
+    
+    
