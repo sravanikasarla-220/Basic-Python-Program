@@ -1,0 +1,12 @@
+arr=[20,30,40,60,50]
+target=int(input("enter the target value:"))
+def linear_search(target,arr):
+    for i in range(len(arr)):
+        if (arr[i]==target):
+            return i
+    return -1
+sra=linear_search(target,arr)
+if(sra!=-1):
+    print("element is found at index:",sra)
+else:
+    print("element not found")
