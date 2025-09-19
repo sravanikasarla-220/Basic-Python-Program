@@ -1,0 +1,10 @@
+m=2
+n=4
+if m>n:
+    pass
+else:
+    for i in range(m,n+1):
+        s=0
+        i+=1
+        s+=i**3
+        print(s)
